@@ -1,46 +1,90 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-    <!-- Head content same as index.html -->
-    <title>Our Services | Infinitax | Expert Tax Solutions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expertise | Infinitax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header same as index.html -->
 
-    <!-- Page Header -->
-    <section class="page-header">
+    <nav class="navbar navbar-expand-lg fixed-top glass-header">
         <div class="container">
-            <h1>Our Tax Services</h1>
-            <p>Comprehensive tax solutions tailored to your needs</p>
+            <a class="navbar-brand" href="index.html">Infini<span class="text-gold">tax</span></a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Firm</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Expertise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-global" style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center reveal">
+            <h1 class="display-4 fw-bold mb-3">Our Expertise</h1>
+            <p class="lead text-light mx-auto w-75">Comprehensive legal and financial frameworks engineered to protect and scale your enterprise.</p>
         </div>
     </section>
 
-    <!-- Services List -->
-    <section class="services-list">
+    <section class="py-5 my-5">
         <div class="container">
-            <div class="service-item" id="personal-tax">
-                <div class="service-content">
-                    <h2>Personal Tax Planning</h2>
-                    <p>Our personal tax planning services help individuals minimise their tax liabilities while ensuring full compliance with HMRC regulations.</p>
-                    <ul>
-                        <li>Self Assessment tax returns</li>
-                        <li>Income tax planning</li>
-                        <li>Capital gains tax advice</li>
-                        <li>Inheritance tax planning</li>
-                        <li>High-net-worth individual services</li>
-                    </ul>
-                    <a href="contact.html" class="btn btn-primary">Get a Free Consultation</a>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="premium-card">
+                        <i class="fa-solid fa-building"></i>
+                        <h4 class="mb-3">Corporate Structuring</h4>
+                        <p class="text-muted small mb-0">SECP regulations, incorporations, and complete corporate law compliance for private and public limited entities.</p>
+                    </div>
                 </div>
-                <div class="service-image">
-                    <img src="images/services/personal-tax.jpg" alt="Personal Tax Planning">
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="premium-card">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h4 class="mb-3">Tax Litigation</h4>
+                        <p class="text-muted small mb-0">Robust representation in tax adjudication and appeals before senior courts and the Supreme Court of Pakistan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="premium-card">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <h4 class="mb-3">Foreign Investment</h4>
+                        <p class="text-muted small mb-0">Structural setup, licensing, and strategic advisory for foreign nationals and entities entering the Pakistani market.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="premium-card">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <h4 class="mb-3">Tax Advisory</h4>
+                        <p class="text-muted small mb-0">Import/export taxation, direct/indirect tax compliance, and strategically obtaining necessary tax exemptions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="premium-card">
+                        <i class="fa-solid fa-users"></i>
+                        <h4 class="mb-3">NGO & NPO Law</h4>
+                        <p class="text-muted small mb-0">Specialized framework registration, operational compliance, and legal standing for not-for-profit associations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="premium-card">
+                        <i class="fa-solid fa-leaf"></i>
+                        <h4 class="mb-3">Sustainability Counseling</h4>
+                        <p class="text-muted small mb-0">Modern ESG compliance, environmental advisory, and sustainability reporting for corporate entities.</p>
+                    </div>
                 </div>
             </div>
-
-            <!-- More service items -->
         </div>
     </section>
 
-    <!-- Contact CTA same as index.html -->
-    <!-- Footer same as index.html -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
